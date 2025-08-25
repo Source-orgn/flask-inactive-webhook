@@ -5,7 +5,7 @@ charset-normalizer==3.4.3
 click==8.2.1
 colorama==0.4.6
 cryptography==45.0.6
-Flask @ file:///C:/Users/ruttamka/Downloads/flask-3.1.2-py3-none-any.whl#sha256=ca1d8112ec8a6158cc29ea4858963350011b5c846a414cdb7a954aa9e967d03c
+Flask==3.1.2
 idna==3.10
 itsdangerous==2.2.0
 Jinja2==3.1.6
