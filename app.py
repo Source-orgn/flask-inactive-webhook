@@ -7,6 +7,7 @@ def home():
     return 'Flask webhook server is running.', 200
 
 @app.route('/webhook', methods=['POST'])
+@app.route('/webhook/', methods=['POST'])
 def github_webhook():
     data = request.json
 
@@ -25,3 +26,4 @@ def github_webhook():
 
 if __name__ == '__main__':
     app.run(port=5000)
+
